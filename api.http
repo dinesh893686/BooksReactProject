@@ -1,0 +1,30 @@
+
+
+// Get all books
+
+GET http://127.0.0.1:3001/books HTTP/1.1
+Content-Type: application/json
+
+
+###
+
+POST http://127.0.0.1:3001/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title":"Epic Shit done"
+}
+
+###
+PUT  http://127.0.0.1:3001/books/5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title":"Invisible"
+}
+
+###
+
+DELETE http://127.0.0.1:3001/books/8 HTTP/1.1
+Content-Type: application/json
+
