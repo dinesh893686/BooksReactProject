@@ -23,6 +23,10 @@ export default function BookShow({book}) {
      {
       content = <BookEdit book={book}/>
      }
+
+
+
+     
     
   return (
     <div>
